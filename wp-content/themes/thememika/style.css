@@ -3,6 +3,25 @@ Theme Name: themeMika
 Theme URI: https://www.monsite.com/thememika
 Author: [KIPS WILLY]
 Author URI: https://www.monsite.com/thememika
-Description: [décrivez ici votre thème en quelques mots]
+Description: [Debut avec Word Press]
 Version: 1.0
 */
+
+
+@font-face {
+    font-family: 'maidenPolice';
+    src: url('./maiden.ttf');
+}
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'maidenPolice';             
+    background-color: #ccc;
+text-align: center; 
+}
